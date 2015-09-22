@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/richard/.nvm/versions/node/v0.12.0/bin/node',
+1 verbose cli   '/Users/richard/.nvm/versions/node/v0.12.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose publish [ '.' ]
+5 verbose stack Error: No version provided
+5 verbose stack     at /Users/richard/.nvm/versions/node/v0.12.0/lib/node_modules/npm/lib/publish.js:44:36
+5 verbose stack     at /Users/richard/.nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:51:40
+5 verbose stack     at final (/Users/richard/.nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:349:17)
+5 verbose stack     at then (/Users/richard/.nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
+5 verbose stack     at /Users/richard/.nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:331:40
+5 verbose stack     at evalmachine.<anonymous>:336:14
+5 verbose stack     at /Users/richard/.nvm/versions/node/v0.12.0/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+5 verbose stack     at FSReqWrap.oncomplete (evalmachine.<anonymous>:99:15)
+6 verbose cwd /Users/richard/src/ipfs-website
+7 error Darwin 14.4.0
+8 error argv "/Users/richard/.nvm/versions/node/v0.12.0/bin/node" "/Users/richard/.nvm/versions/node/v0.12.0/bin/npm" "publish"
+9 error node v0.12.0
+10 error npm  v2.5.1
+11 error No version provided
+12 error If you need help, you may report this error at:
+12 error     <http://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]

@@ -23,6 +23,7 @@ publish:
 		echo "now must:"; \
 		echo "- seed websites: /ipfs/$$hash"; \
 		echo "- add to ipfs.io: $$ipfshash"; \
+	dnslink-deploy --domain=ipfs.io --record= --path=$$ipfshash
 
 publish-to-github:
 	./publish-to-github
